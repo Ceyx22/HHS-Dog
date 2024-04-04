@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 from glob import glob
 
-package_name = 'unitree-dog'
+package_name = 'unitreedog'
 
 setup(
     name=package_name,
@@ -24,6 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'basic = unitreedog.basic:main',
         ],
     },
 )
