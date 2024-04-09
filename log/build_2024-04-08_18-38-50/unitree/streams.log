@@ -1,0 +1,38 @@
+[0.593s] Invoking command in '/home/ceyx/Documents/HHS-Dog/build/unitree': PYTHONPATH=/home/ceyx/Documents/HHS-Dog/build/unitree/prefix_override:/home/ceyx/Documents/HHS-Dog/install/unitree/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ceyx/Documents/HHS-Dog/build/unitree/build --no-deps symlink_data
+[0.801s] running develop
+[0.801s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.801s]   warnings.warn(
+[0.886s] running egg_info
+[0.887s] creating unitree.egg-info
+[0.887s] writing unitree.egg-info/PKG-INFO
+[0.887s] writing dependency_links to unitree.egg-info/dependency_links.txt
+[0.887s] writing entry points to unitree.egg-info/entry_points.txt
+[0.887s] writing requirements to unitree.egg-info/requires.txt
+[0.887s] writing top-level names to unitree.egg-info/top_level.txt
+[0.887s] writing manifest file 'unitree.egg-info/SOURCES.txt'
+[0.888s] reading manifest file 'unitree.egg-info/SOURCES.txt'
+[0.889s] writing manifest file 'unitree.egg-info/SOURCES.txt'
+[0.890s] running build_ext
+[0.890s] Creating /home/ceyx/Documents/HHS-Dog/install/unitree/lib/python3.10/site-packages/unitree.egg-link (link to .)
+[0.891s] Installing basic script to /home/ceyx/Documents/HHS-Dog/install/unitree/lib/unitree
+[0.891s] 
+[0.891s] Installed /home/ceyx/Documents/HHS-Dog/build/unitree
+[0.891s] running symlink_data
+[0.891s] creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/ament_index
+[0.891s] creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/ament_index/resource_index
+[0.891s] creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/ament_index/resource_index/packages
+[0.891s] symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/resource/unitree -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/ament_index/resource_index/packages
+[0.891s] symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/package.xml -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree
+[0.891s] creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/launch
+[0.891s] symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/launch/basic.launch.py -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/launch
+[0.891s] creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/urdf
+[0.891s] symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/urdf/go1.urdf -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/urdf
+[0.891s] creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/meshes
+[0.891s] symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/meshes/thigh.stl -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/meshes
+[0.891s] symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/meshes/trunk.stl -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/meshes
+[0.891s] symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/meshes/hip.stl -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/meshes
+[0.891s] symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/meshes/thigh_mirror.stl -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/meshes
+[0.891s] symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/meshes/calf.stl -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/meshes
+[0.891s] creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/rviz
+[0.891s] symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/rviz/viewurdf.rviz -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/rviz
+[0.937s] Invoked command in '/home/ceyx/Documents/HHS-Dog/build/unitree' returned '0': PYTHONPATH=/home/ceyx/Documents/HHS-Dog/build/unitree/prefix_override:/home/ceyx/Documents/HHS-Dog/install/unitree/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ceyx/Documents/HHS-Dog/build/unitree/build --no-deps symlink_data

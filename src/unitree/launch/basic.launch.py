@@ -63,13 +63,13 @@ def generate_launch_description():
         executable = 'basic',
         output     = 'screen')
     
-        # Configure a node for the GUI.
-    node_gui = Node(
-        name       = 'gui', 
-        package    = 'joint_state_publisher_gui',
-        executable = 'joint_state_publisher_gui',
-        output     = 'screen',
-        on_exit    = Shutdown())
+    #     # Configure a node for the GUI.
+    # node_gui = Node(
+    #     name       = 'gui', 
+    #     package    = 'joint_state_publisher_gui',
+    #     executable = 'joint_state_publisher_gui',
+    #     output     = 'screen',
+    #     on_exit    = Shutdown())
 
     ######################################################################
     # RETURN THE ELEMENTS IN ONE LIST
@@ -78,5 +78,5 @@ def generate_launch_description():
         node_robot_state_publisher,
         node_rviz,
         node_basic,
-        node_gui,
+        # node_gui,
     ])

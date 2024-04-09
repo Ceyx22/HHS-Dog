@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000429] (unitree) JobQueued: {'identifier': 'unitree', 'dependencies': OrderedDict()}
+[0.000464] (unitree) JobStarted: {'identifier': 'unitree'}
+[0.098779] (-) TimerEvent: {}
+[0.199604] (-) TimerEvent: {}
+[0.300102] (-) TimerEvent: {}
+[0.400623] (-) TimerEvent: {}
+[0.501161] (-) TimerEvent: {}
+[0.589765] (unitree) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ceyx/Documents/HHS-Dog/build/unitree/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ceyx/Documents/HHS-Dog/build/unitree', 'env': {'LANGUAGE': 'en', 'USER': 'ceyx', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ceyx', 'OLDPWD': '/home/ceyx/Documents', 'LESS': '-R', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/ceyx/.nvm/versions/node/v18.17.1/bin', 'ZSH': '/home/ceyx/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'NVM_INC': '/home/ceyx/.nvm/versions/node/v18.17.1/include/node', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '24190', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'NVM_DIR': '/home/ceyx/.nvm', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/ceyx/Documents/HHS-Dog/install', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ceyx', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'ceyx', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/ceyx/anaconda3/condabin:/home/ceyx/.nvm/versions/node/v18.17.1/bin:/home/ceyx/.local/bin:/home/ceyx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/system76-pc:@/tmp/.ICE-unix/2134,unix/system76-pc:/tmp/.ICE-unix/2134', 'PAPERSIZE': 'letter', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/195d5542_8c64_48bc_b450_c286c2dc910f', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'en_US.UTF-8', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.167', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'CONDA_PYTHON_EXE': '/home/ceyx/anaconda3/bin/python', 'AMENT_PREFIX_PATH': '/home/ceyx/Documents/HHS-Dog/install/unitree:/opt/ros/humble', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ceyx/Documents/HHS-Dog/build/unitree', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'NVM_CD_FLAGS': '-q', 'CONDA_EXE': '/home/ceyx/anaconda3/bin/conda', 'LC_NUMERIC': 'en_US.UTF-8', 'PYTHONPATH': '/home/ceyx/Documents/HHS-Dog/build/unitree/prefix_override:/home/ceyx/Documents/HHS-Dog/install/unitree/lib/python3.10/site-packages:/home/ceyx/Documents/HHS-Dog/build/unitree:/home/ceyx/Documents/HHS-Dog/install/unitree/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.601360] (-) TimerEvent: {}
+[0.701785] (-) TimerEvent: {}
+[0.801167] (unitree) StdoutLine: {'line': b'running develop\n'}
+[0.801592] (unitree) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.801716] (unitree) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.801790] (-) TimerEvent: {}
+[0.886608] (unitree) StdoutLine: {'line': b'running egg_info\n'}
+[0.886941] (unitree) StdoutLine: {'line': b'creating unitree.egg-info\n'}
+[0.887029] (unitree) StdoutLine: {'line': b'writing unitree.egg-info/PKG-INFO\n'}
+[0.887147] (unitree) StdoutLine: {'line': b'writing dependency_links to unitree.egg-info/dependency_links.txt\n'}
+[0.887271] (unitree) StdoutLine: {'line': b'writing entry points to unitree.egg-info/entry_points.txt\n'}
+[0.887297] (unitree) StdoutLine: {'line': b'writing requirements to unitree.egg-info/requires.txt\n'}
+[0.887319] (unitree) StdoutLine: {'line': b'writing top-level names to unitree.egg-info/top_level.txt\n'}
+[0.887342] (unitree) StdoutLine: {'line': b"writing manifest file 'unitree.egg-info/SOURCES.txt'\n"}
+[0.888648] (unitree) StdoutLine: {'line': b"reading manifest file 'unitree.egg-info/SOURCES.txt'\n"}
+[0.889051] (unitree) StdoutLine: {'line': b"writing manifest file 'unitree.egg-info/SOURCES.txt'\n"}
+[0.890154] (unitree) StdoutLine: {'line': b'running build_ext\n'}
+[0.890445] (unitree) StdoutLine: {'line': b'Creating /home/ceyx/Documents/HHS-Dog/install/unitree/lib/python3.10/site-packages/unitree.egg-link (link to .)\n'}
+[0.890926] (unitree) StdoutLine: {'line': b'Installing basic script to /home/ceyx/Documents/HHS-Dog/install/unitree/lib/unitree\n'}
+[0.891076] (unitree) StdoutLine: {'line': b'\n'}
+[0.891144] (unitree) StdoutLine: {'line': b'Installed /home/ceyx/Documents/HHS-Dog/build/unitree\n'}
+[0.891174] (unitree) StdoutLine: {'line': b'running symlink_data\n'}
+[0.891220] (unitree) StdoutLine: {'line': b'creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/ament_index\n'}
+[0.891259] (unitree) StdoutLine: {'line': b'creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/ament_index/resource_index\n'}
+[0.891284] (unitree) StdoutLine: {'line': b'creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/ament_index/resource_index/packages\n'}
+[0.891321] (unitree) StdoutLine: {'line': b'symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/resource/unitree -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/ament_index/resource_index/packages\n'}
+[0.891360] (unitree) StdoutLine: {'line': b'symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/package.xml -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree\n'}
+[0.891410] (unitree) StdoutLine: {'line': b'creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/launch\n'}
+[0.891434] (unitree) StdoutLine: {'line': b'symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/launch/basic.launch.py -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/launch\n'}
+[0.891479] (unitree) StdoutLine: {'line': b'creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/urdf\n'}
+[0.891502] (unitree) StdoutLine: {'line': b'symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/urdf/go1.urdf -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/urdf\n'}
+[0.891538] (unitree) StdoutLine: {'line': b'creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/meshes\n'}
+[0.891564] (unitree) StdoutLine: {'line': b'symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/meshes/thigh.stl -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/meshes\n'}
+[0.891606] (unitree) StdoutLine: {'line': b'symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/meshes/trunk.stl -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/meshes\n'}
+[0.891647] (unitree) StdoutLine: {'line': b'symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/meshes/hip.stl -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/meshes\n'}
+[0.891672] (unitree) StdoutLine: {'line': b'symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/meshes/thigh_mirror.stl -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/meshes\n'}
+[0.891707] (unitree) StdoutLine: {'line': b'symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/meshes/calf.stl -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/meshes\n'}
+[0.891743] (unitree) StdoutLine: {'line': b'creating /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/rviz\n'}
+[0.891764] (unitree) StdoutLine: {'line': b'symbolically linking /home/ceyx/Documents/HHS-Dog/build/unitree/rviz/viewurdf.rviz -> /home/ceyx/Documents/HHS-Dog/install/unitree/share/unitree/rviz\n'}
+[0.901894] (-) TimerEvent: {}
+[0.937529] (unitree) CommandEnded: {'returncode': 0}
+[0.944947] (unitree) JobEnded: {'identifier': 'unitree', 'rc': 0}
+[0.945768] (-) EventReactorShutdown: {}

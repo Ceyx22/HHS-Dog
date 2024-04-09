@@ -2,6 +2,11 @@ package.xml
 setup.cfg
 setup.py
 launch/basic.launch.py
+meshes/calf.stl
+meshes/hip.stl
+meshes/thigh.stl
+meshes/thigh_mirror.stl
+meshes/trunk.stl
 resource/unitree
 rviz/viewurdf.rviz
 unitree/TransformHelpers.py

@@ -41,12 +41,7 @@
   </material>
 
 
-  <link name="world"/>
-  <joint name="" type="floating">
-    <origin rpy="0 0 0" xyz="0 0 0"/>
-    <parent link="world"/>
-    <child link="trunk"/>
-  </joint>
+  
   <link name="trunk">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -701,3 +696,4 @@
     </actuator>
   </transmission>
 </robot>
+
